@@ -1,0 +1,31 @@
+{
+  "name": "turnos-preentrega4",
+  "version": "1.0.0",
+  "description": "API REST reorganizada en capas: rutas, controllers y managers (Pre-entrega 4)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "node",
+    "esm",
+    "express",
+    "api",
+    "rest",
+    "filesystem",
+    "mvc",
+    "controllers",
+    "services",
+    "bookings",
+    "turnos",
+    "reservas"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
